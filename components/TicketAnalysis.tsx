@@ -222,7 +222,7 @@ const TicketAnalysis = () => {
                       <h3 className="text-lg font-medium mb-4">Parametri Generali</h3>
                       <div className="space-y-4">
                         <div>
-                          <h4 className="text-sm font-medium mb-2">Numero totale presenze: {totalAttendees.toLocaleString('it-IT')}</h4>
+                          <h4 className="text-sm font-medium mb-2">Numero totale acquisti: {totalAttendees.toLocaleString('it-IT')}</h4>
                           <Slider 
                             value={[totalAttendees]}
                             min={40000}
